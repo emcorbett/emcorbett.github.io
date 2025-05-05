@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+.marvel-regular {
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  body {
+    background-color: #CDC6BC;
+  }
+
+main {
+    margin-top: -8%;
+}
+
+
+a {
+    color: #282626;
+}
+.main-menu a:hover {
+    color:#ffffff !important;
+    transition: color 0.3s ease;
+
+}
+
+
+.menu a:hover {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+a:visited {
+    color: #282626;
+}
+
+
+/* BUTTERFLIES */
+
+.butterfly-title {
+    color: #ffffff;
+}
+
+.menu {
+    color: #282626;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: auto;   
+    box-sizing: border-box;
+    padding-left: 0;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #282626;
+}
+.menu a:link {
+
+    text-decoration:dashed;
+    color: #282626;
+
+}
+
+.list {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.summaryBB {
+    color: #282626;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.topBB {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.main-bb {
+    float: right;
+    width: 80vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: -5%;
+
+}
+
+
+
+
+
+.butterfly-title {
+    font-size: 4.5rem;
+    margin-top: -8%;
+}
+
+
+.butterfly1 {
+    position: absolute;
+    height: 32vw;
+    top: 130px;
+    right: 25px;
+}
+
+.butterfly2 {
+    position: absolute;
+    height: 50vw;
+    transform: rotate(-45deg);
+    top: 593px;
+    left: 0px;
+}
+
+.parentBB {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.parentBB img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 40vh;
+    width: auto;
+}
+
+
+
+
+/* SKELETON */
+
+
+.skeleton-title {
+    color: #ffffff;
+    font-size: 410%;
+    margin-top: -8%;
+}
+
+.main-skeleton {
+    float: right;
+    width: 80vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: -5%;
+
+}
+
+.topskeleton {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.summary-skeleton {
+    color: #282626;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.parent-skeleton {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.parent-skeleton img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 30vh;
+    width: auto;
+}
+
+
+
+
+
+
+/* LOVER GIRL */
+
+
+
+.lovergirl-title {
+    color: #ffffff;
+    font-size: 410%;
+    margin-top: -8%;
+}
+
+.main-lover {
+    float: right;
+    width: 80vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: -5%;
+
+}
+
+.toplovergirl {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-lover {
+    color: #282626;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.parent-lover {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.parent-lover img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 30vh;
+    width: auto;
+}
+
+
+
+/* STORMY */
+
+
+.stormy-title {
+    color: #ffffff;
+    font-size: 410%;
+    margin-top: -8%;
+}
+
+.main-stormy {
+    float: right;
+    width: 80vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: -5%;
+
+}
+
+.topstormy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.summary-stormy {
+    color: #282626;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.parent-stormy {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.parent-stormy img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: auto;
+}
+
+
+/* POSE */
+
+
+.study-title {
+    color: #ffffff;
+    font-size: 410%;
+    margin-top: -8%;
+}
+
+.main-study {
+    float: right;
+    width: 80vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: -5%;
+
+}
+
+.topstudy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.summary-study {
+    color: #282626;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.parent-study {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.parent-study img {
+    margin: 10px;
+    border-radius: 30px;
+    height: 40vh;
+    width: auto;
+}
+
+
+/* MY WORKS MAIN PAGE */
+
+.works-title {
+    color: #ffffff;
+    font-size: 4.5rem;
+    margin-top: -6%;
+}
+
+
+
+.skeleton-image img {
+
+    width: 90vw;
+    display: block;
+    margin: -2rem auto 0 auto;
+}
+.image-gallery {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -9px;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.image-gallery img {
+    height: fit-content;
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+/* ABOUT ME */
+
+
+.about-me-title {
+    color: #ffffff;
+    font-size: 4.5rem;
+    margin-top: -8%;
+}
+
+.about-me-image {
+    width: 75vw;
+    height: fit-content;
+    border-radius: 30px;
+    margin: auto auto 25px auto;
+    display: block;
+}
+
+.about-me-summary {
+    font-size: 1.5rem;
+    text-indent: 20px;
+    margin: auto;
+}
+
+.top-about-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* MAIN PAGE */
+
+
+.main-title {
+    color: #ffffff;
+    font-size: 5.5rem;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    text-indent: -30px;
+    line-height: 1;
+}
+
+
+
+
+
+
+.main-menu {
+    color: #282626;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: auto;   
+    box-sizing: border-box;
+    padding-left: 0;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+.main-menu a:link {
+
+    text-decoration:dashed;
+    color: #282626;
+
+}
+
+
+
+
+.sitting-lady {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: auto;
+  }
+
+
+  
+  .sitting-img {
+    width: 120vw;
+    margin-top: 25vh;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+
+/* CONTACT ME PAGE */
+
+
+.contact-title {
+    color: #ffffff;
+    font-size: 4.5rem;
+    margin-top: -8%;
+}
+
+
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 5px;
+    margin-top: -9px;
+    margin-left: -10%;
+}
+  
+  
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+.contact-item img {
+    margin-top: 35px;
+    width: 13vw;
+}
+
+.contact-item p {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+ 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    main {
+
+        margin-top: 2.5rem;
+    }
+    
+    .menu {
+        font-size: 3.5rem;
+        margin-bottom: -1%;
+    }
+
+    .butterfly-title, .works-title, .about-me-title, .skeleton-title, .lovergirl-title, .study-title, .stormy-title, .contact-title {
+        font-size: 90px;
+        margin-top: 1rem;
+        padding-left: 2%;
+    }
+
+    .topBB, .topskeleton, .toplovergirl, .topstudy, .topstormy {
+        flex-direction: row;
+        padding-left: 20px;
+        margin-top: -8%;
+    }
+
+    .main-bb {
+        width: 100%;
+        
+    }
+
+    .topBB div {
+        order: 2;
+        max-width: 50vw;
+    }
+
+    .summaryBB  {
+        text-align: right;
+        width: 100%;
+        font-size: 150%;
+    }
+
+    .butterfly1 {
+        height: 22vw;
+        top: 180px;
+        right: 20px;
+    }
+    
+    .butterfly2 {
+        
+        height: 25vw;
+        top: 715px;
+        left: 350px;    }
+
+    
+    .main-skeleton, .main-lover, .main-study, .main-stormy {
+        width: 65vw;
+    }
+    .topskeleton div, .toplovergirl div, .topstudy div, .topstormy div {
+        order: 2;
+    }
+    .summary-skeleton {
+        text-align: right;
+        padding-right: 0;
+        font-size: 1.3
+       
+        
+    }
+
+    .summary-lover {
+            text-align: right;
+            padding-right: 0;
+            font-size: 1.1rem;
+        }
+
+    .summary-study {
+        text-align: right;
+        padding: 0;
+        font-size: 1.4rem;
+    } 
+    .summary-stormy {
+        text-align: right;
+        padding: 0;
+        font-size: 1.4rem;
+    }       
+
+      .top-about-me {
+        flex-direction: row-reverse;
+      }  
+
+      .about-me-image {
+        display: flex;
+        width: 50vw;
+      }
+      .about-me-summary {
+        font-size: 1.3rem;
+        text-align: right;
+        padding-left: 10px;
+        padding-right: 15px;
+      }
+
+      .gallery-column {
+        max-width: 47vw;
+      }
+
+      .main-title {
+        font-size: 9rem;
+      }
+      .main-menu {
+        font-size: 3rem;
+        top: 400px;
+        left: 90px;
+      }
+      
+      .contact-section {
+        margin-left: -40%;
+        margin-top: -10%;
+    }
+
+    .contact-item p {
+        font-size: 4vw;
+    }
+    .contact-item img {
+        width: 7vw;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .butterfly-title, .skeleton-title, .lovergirl-title, .study-title, .stormy-title,  .contact-title {
+        padding-bottom: 2%;
+    }
+
+    .summaryBB {
+        font-size: 200%;
+    }
+    .butterfly1 {
+        height: 15vw;
+        top: 135px;
+        right: 20px;
+    }
+    
+    .butterfly2 {
+        
+        height: 25vw;
+        top: 715px;
+        left: 470px;    }
+
+    
+        .parentBB img {
+        
+            margin-top: 60px;
+        }
+
+    .summary-skeleton {
+        font-size: 1.8rem;
+    }
+    .summary-lover {
+        font-size: 1.3rem;
+    }
+
+    .summary-study {
+        font-size: 1.8rem;
+
+    }
+
+    .summary-stormy {
+        font-size: 1.6rem;
+    }
+
+
+    .about-me-summary {
+        font-size: 1.7rem;
+    }
+
+    .contact-item p {
+        font-size: 5vw;
+    }
+    .contact-item img {
+        width: 11vw;
+    }
+
+        .contact-section {
+            margin-left: -40%;
+            margin-top: -10%;
+        }
+
+        .contact-item p {
+            font-size: 3vw;
+        }
+        .contact-item img {
+            width: 7vw;
+        }
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .butterfly-title, .skeleton-title, .lovergirl-title, .study-title, .stormy-title, .contact-title {
+        padding: 3rem 0 8rem 3rem;
+
+        font-size: 6rem;
+
+    }
+
+    .summaryBB, .summary-skeleton, .summary-lover, .summary-study, .summary-stormy {
+        font-size: 2rem;
+        padding-left: 5%;
+    }
+   
+
+    .butterfly1 {
+        height: 15vw;
+        top: 190px;
+        right: 20px;
+    }
+    
+    .butterfly2 {
+        
+        height: 27vw;
+        top: 980px;
+        left: 654px;    }
+
+    .parentBB img {
+        height: 70vh;
+        margin-top: 60px;
+    }
+
+    .parent-skeleton img, .parent-lover img, .parent-study img, .parent-stormy img {
+        height: 45vh;
+    }
+
+    .main-menu {
+        font-size: 3rem;
+        top: 250px;
+        left: 150px;
+        gap: 30px;
+    }
+    .main-title {
+        font-size: 6rem;
+        left: 151px;
+        text-indent: -185px;   
+        top: -20px;
+     }
+
+        .sitting-img {
+            max-height: 200vh;
+        margin-right: -30%;
+        margin-top: -8%;
+            
+        }
+
+        .contact-section {
+            margin-left: -35%;
+            margin-top: -18%;
+        }
+        .contact-item p {
+            font-size: 3vw;
+        }
+        .contact-item img {
+            width: 7vw;
+        }
+
+}
+
+
+    
