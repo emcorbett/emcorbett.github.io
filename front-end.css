@@ -377,7 +377,7 @@ a:visited {
 }
 
 .about-me-image {
-    width: 75vw;
+    width: 75%;
     height: auto;
     border-radius: 30px;
     margin: auto auto 25px auto;
