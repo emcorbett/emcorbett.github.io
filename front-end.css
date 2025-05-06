@@ -356,8 +356,9 @@ a:visited {
 }
 
 .image-gallery img {
-    height: fit-content;
-    width: 100%;
+    width: 100%; 
+    height: auto;
+   
     border-radius: 30px;
 }
 
